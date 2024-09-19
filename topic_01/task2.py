@@ -1,3 +1,5 @@
+#Завдання №2: виконати тестування функцій, що працюють з рядками
+
 test_functions = "  hello, World! this is A TEST functions.  "
 
 results = {

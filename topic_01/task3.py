@@ -1,3 +1,5 @@
+#Завдання №3: написати функцію пошуку дискримінанту
+
 a = float(input("What's a: "))
 b = float(input("What's b: "))
 c = float(input("What's c: "))  
