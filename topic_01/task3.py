@@ -8,5 +8,4 @@ b = float(input("What's b: "))
 c = float(input("What's c: "))  
 
 
-
 print("Result of the discriminant: ", descr(a, b, c))
