@@ -21,7 +21,7 @@ while True:
         print("Завершення програми. До побачення!")
         break
     try:
-        q1 = float(q1)  # Дозволяємо вводити числа з плаваючою комою
+        q1 = float(q1)
     except ValueError:
         print("Помилка! Будь ласка, введіть число.")
         continue
@@ -31,7 +31,7 @@ while True:
         print("Завершення програми. До побачення!")
         break
     try:
-        q2 = float(q2)  # Дозволяємо вводити числа з плаваючою комою
+        q2 = float(q2)
     except ValueError:
         print("Помилка! Будь ласка, введіть число.")
         continue
@@ -47,7 +47,7 @@ while True:
         print("Помилка! Будь ласка, введіть номер операції.")
         continue
 
-    if v not in [1, 2, 3, 4]:  # Перевірка на допустимість операції
+    if v not in [1, 2, 3, 4]:
         print("Помилка! Невірний номер операції.")
         continue
 
