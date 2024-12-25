@@ -58,10 +58,12 @@ def updateElement():
         return
 
     print(f"Updating information for student {name} {list[updatePosition]['surname']}:")
+    new_name = input(f"Enter new name (current: {list[updatePosition]['name']}): ")
     surname = input(f"Enter new surname (current: {list[updatePosition]['surname']}): ")
     phone = input(f"Enter new phone (current: {list[updatePosition]['phone']}): ")
     email = input(f"Enter new email (current: {list[updatePosition]['email']}): ")
 
+    list[updatePosition]["name"] = new_name if new_name else list[updatePosition]["name"]
     list[updatePosition]["surname"] = surname if surname else list[updatePosition]["surname"]
     list[updatePosition]["phone"] = phone if phone else list[updatePosition]["phone"]
     list[updatePosition]["email"] = email if email else list[updatePosition]["email"]
